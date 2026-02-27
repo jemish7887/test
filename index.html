@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jemish Chudal | Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!-- AOS Animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+    scroll-behavior:smooth;
+}
+
+/* Navbar */
+nav{
+    position:fixed;
+    width:100%;
+    padding:15px 50px;
+    background:rgba(0,0,0,0.6);
+    backdrop-filter:blur(10px);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:1000;
+}
+
+nav h2{
+    color:#00f5ff;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#00f5ff;
+}
+
+/* Sections */
+section{
+    min-height:100vh;
+    padding:120px 10%;
+}
+
+.home{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.home h1{
+    font-size:50px;
+}
+
+.highlight{
+    color:#00f5ff;
+}
+
+/* Skills */
+.skills-container{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.skill-card{
+    background:rgba(255,255,255,0.1);
+    padding:30px;
+    border-radius:15px;
+    width:250px;
+    transition:0.4s;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+    background:#00f5ff;
+    color:black
